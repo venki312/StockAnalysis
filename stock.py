@@ -52,10 +52,12 @@ if __name__=="__main__":
 	args = parser.parse_args()
 	print("See below {0} company with {1} as high to open diff in {2} days".format(args.list[0], args.list[1], args.list[2]))
 
+	#get the NSE result
 	c1 = Company(args.list[1], args.list[2])
 	result = c1.get_open_high_diff(args.list[0])
-	print("NSE high to open diff is {0} for {1} in last {2} days".format(args.list[1], result, args.list[2]))
+	print("NSE high to open diff is {0} for {1} days in last {2} days".format(args.list[1], result, args.list[2]))
 
+	#get the BSE result
 	c2 = Company(args.list[1], args.list[2])
 	result = c2.get_open_high_diff(args.list[0], type='BO')
-	print("BSE high to open diff is {0} for {1} in last {2} days".format(args.list[1], result, args.list[2]))
+	print("BSE high to open diff is {0} for {1} days in last {2} days".format(args.list[1], result, args.list[2]))
