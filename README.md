@@ -5,7 +5,7 @@ Step1: Install Pandas - pip instal pandas
 
 Step2: Execute the below code
 
-Usage: python2 stock.py --list "LUPIN" 10 30
+#Usage: python2 stock.py --list "LUPIN" 10 30
 LUPIN - Company Code
 10 Represent - diff b/w high to open price
 30 Represent - Sample number of days to calculate the above price which is 10.
