@@ -61,3 +61,47 @@ if __name__=="__main__":
 	c2 = Company(args.list[1], args.list[2])
 	result = c2.get_open_high_diff(args.list[0], type='BO')
 	print("BSE high to open diff is {0} for {1} days in last {2} days".format(args.list[1], result, args.list[2]))
+	
+	
+#Samples Calculated:
+
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'TITAN' 10 365
+# See below TITAN company with 10 as high to open diff in 365 days
+# NSE high to open diff is 10 for 134 days in last 365 days
+# BSE high to open diff is 10 for 126 days in last 365 days
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'TITAN' 10 30
+# See below TITAN company with 10 as high to open diff in 30 days
+# NSE high to open diff is 10 for 19 days in last 30 days
+# BSE high to open diff is 10 for 18 days in last 30 days
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'TITAN' 10 7
+# See below TITAN company with 10 as high to open diff in 7 days
+# NSE high to open diff is 10 for 5 days in last 7 days
+# BSE high to open diff is 10 for 6 days in last 7 days
+
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'SBILIFE' 10 365
+# See below SBILIFE company with 10 as high to open diff in 365 days
+# NSE high to open diff is 10 for 125 days in last 365 days
+# BSE high to open diff is 10 for 130 days in last 365 days
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'SBILIFE' 10 30
+# See below SBILIFE company with 10 as high to open diff in 30 days
+# NSE high to open diff is 10 for 17 days in last 30 days
+# BSE high to open diff is 10 for 17 days in last 30 days
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'SBILIFE' 10 7
+# See below SBILIFE company with 10 as high to open diff in 7 days
+# NSE high to open diff is 10 for 2 days in last 7 days
+# BSE high to open diff is 10 for 2 days in last 7 days
+
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'BHARTIARTL' 10 365
+# See below BHARTIARTL company with 10 as high to open diff in 365 days
+# NSE high to open diff is 10 for 77 days in last 365 days
+# BSE high to open diff is 10 for 73 days in last 365 days
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'BHARTIARTL' 10 30
+# See below BHARTIARTL company with 10 as high to open diff in 30 days
+# NSE high to open diff is 10 for 8 days in last 30 days
+# BSE high to open diff is 10 for 7 days in last 30 days
+# suryadevara-a01:StockAnalysis suryadevarav$ python stock.py --list 'BHARTIARTL' 10 7
+# See below BHARTIARTL company with 10 as high to open diff in 7 days
+# NSE high to open diff is 10 for 0 days in last 7 days
+# BSE high to open diff is 10 for 0 days in last 7 days
+
+#End of Sample data
