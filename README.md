@@ -1,8 +1,6 @@
 # StockAnalysis
 Experimental work
 
-# SRC https://thispointer.com/pandas-count-rows-in-a-dataframe-all-or-those-only-that-satisfy-a-condition/#:~:text=apply()%20we%20can%20apply,dataframe%20that%20satisfies%20the%20condition.
-
 # Step1: Install Pandas - pip instal pandas
 
 # Step2: Download the CSV file from the website
